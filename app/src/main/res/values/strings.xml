@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PictureEffectUtils</string>
+    <string name="title_activity_fast_blur">FastBlurActivity</string>
+    <string name="title_activity_mosaic_processor">MosaicProcessorActivity</string>
+</resources>

@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_blur"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="图片模糊处理"/>
+
+    <Button
+        android:id="@+id/btn_mosaic"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="图片马赛克处理"/>
+
+</LinearLayout>

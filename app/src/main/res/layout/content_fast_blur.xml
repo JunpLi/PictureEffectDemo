@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fly"
+    >
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/picture"
+        android:scaleType="centerCrop" />
+
+    <!--   这个布局是要毛比例处理的范围，设置背景颜色没啥效果 -->
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical"
+        android:background="#70575757">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:text="毛玻璃处理"
+            android:textColor="#FFD39B"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</FrameLayout>
