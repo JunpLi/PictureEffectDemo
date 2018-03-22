@@ -30,10 +30,9 @@ public class MosaicProcessorActivity extends Activity {
         img = (ImageView) findViewById(R.id.img);
 
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.picture);
-        Rect rect = new Rect(0, bitmap.getHeight()/2,bitmap.getWidth() , bitmap.getHeight()/2);
+        Rect rect = new Rect(0, bitmap.getHeight()/4,bitmap.getWidth() , bitmap.getHeight()/2);
         Bitmap bitmap2 =  MosaicProcessor.makeMosaic(bitmap, rect,bitmap.getWidth()/17);
         img.setImageBitmap(bitmap2);
-
         //  getDensity() ;
     }
 
